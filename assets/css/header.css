@@ -3,7 +3,7 @@
    top: 0;
    left: 0;
    width: 100%;
-   padding: 3rem 9%;
+   padding: 2rem 12%;
    background: rgba(0, 0, 0, 0.7);
    backdrop-filter: blur(10px);
    display: flex;
@@ -12,17 +12,20 @@
    z-index: 100;
 }
 .logo{
-   font-size: 3rem;
+   font-size: 2.1rem;
    color: var(--text-color);
    font-weight: 800;
    cursor: pointer;
    transition: 0.3s ease;
 }
+.logo span{
+   color: var(--main-color);
+}
 .logo:hover{
    transform: scale(1.1);
 }
 .navbar a{
-   font-size: 1.8rem;
+   font-size: 1.6rem;
    color: white;
    margin-left: 4rem;
    font-weight: 500;
