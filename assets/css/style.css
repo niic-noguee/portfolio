@@ -14,3 +14,11 @@
    --text-color: white;
    --main-color: #7908ad;
 }
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+body{
+   background-color: var(--bg-color);
+   color: var(--text-color);
+}
